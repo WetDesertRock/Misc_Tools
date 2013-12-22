@@ -24,6 +24,7 @@ import sys, os, pprint
 
 if len(sys.argv) != 3:
     print("Invalid usage, enumparser.py <outtype> <directory>")
+    print("Possible values for outtype could be: vars, dicts, dictlist")
 else:
     targetdir = sys.argv[2]
     outtype = sys.argv[1]
